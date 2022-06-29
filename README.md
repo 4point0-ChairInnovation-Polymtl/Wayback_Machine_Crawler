@@ -12,7 +12,7 @@ In order to use the 4POINT0 Wayback Machine Crawler, some requisites are necessa
 1. Install MongoDB on your machine.
 2. Install Python on your machine (we recommend Anaconda distribution)
 3. Install all the following modules on your Python distribution. The following list could be not complete:
-        - pymongo
+   - pymongo
         - tqdm
         - fake_useragent
         - json
