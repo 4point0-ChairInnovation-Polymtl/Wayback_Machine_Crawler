@@ -27,7 +27,7 @@ In order to use the 4POINT0 Wayback Machine Crawler, some requisites are necessa
 To execute the program you will send a command from your terminal. Here the steps which has to be done:
 1. Download the code from the [GitHub repository](https://github.com/4point0-ChairInnovation-Polymtl/Wayback_Machine_Crawler). Then, unzip it if necessary.
 2. Open your terminal and navigate on the main directory of the Wayback_Machine_Crawler. You should have the folders Scripts, Import and LOG as children of this directory.
-3. Start your version of the MongoDB service on your system (for exmeple: sudo systemctl start mongod)
+3. Start your version of the MongoDB service on your system (for example: sudo systemctl start mongod)
 4. Execute the following line code to get help information about arguments and usage of the crawler:
 
 ```bash
