@@ -9,27 +9,26 @@ python -m Scripts.Wayback_Machine_Crawler -i Import/data_test.txt -uri mongodb:/
 
 ## Requisites
 In order to use the 4POINT0 Wayback Machine Crawler, some requisites are necessary.
-    1. Install MongoDB on your machine.
-    2. Install Python on your machine (we recommend Anaconda distribution)
-    3. Install all the following modules on your Python distribution. The following list could be not complete:
-        a) pymongo
-        b) tqdm
-        c) fake_useragent
-        d) json
-        e) BeautifulSoup
-    4. Have a .txt file with your list of websites to crawl. 
-        a) The .txt file have to contain the website domain (**without** the "http(s)://www." prefix) and the year for which the information will be crawled. These two inputs have to be separated by a comma-space (“, ” ). 
-        b) Here an example:
+1. Install MongoDB on your machine.
+2. Install Python on your machine (we recommend Anaconda distribution)
+3. Install all the following modules on your Python distribution. The following list could be not complete:
+        - pymongo
+        - tqdm
+        - fake_useragent
+        - json
+        - BeautifulSoup
+4. Have a .txt file with your list of websites to crawl. 
+        - The .txt file have to contain the website domain (**without** the "http(s)://www." prefix) and the year for which the information will be crawled. These two inputs have to be separated by a comma-space (“, ” ). 
+        - Here an example:
         ![alt text](https://github.com/4point0-ChairInnovation-Polymtl/Wayback_Machine_Crawler/blob/main/example_data_import_file.jpg)
         
 ## Documentation
 
 To execute the program you will send a command from your terminal. Here the steps which has to be done:
-
-    1. Download the code from the [GitHub repository](https://github.com/4point0-ChairInnovation-Polymtl/Wayback_Machine_Crawler). Then, unzip it if necessary.
-    2. Open your terminal and navigate on the main directory of the Wayback_Machine_Crawler. You should have the folders Scripts, Import and LOG as children of this directory.
-    3. Start your version of the MongoDB service on your system (for exmeple: sudo systemctl start mongod)
-    4. Execute the following line code to get help information about arguments and usage of the crawler:
+1. Download the code from the [GitHub repository](https://github.com/4point0-ChairInnovation-Polymtl/Wayback_Machine_Crawler). Then, unzip it if necessary.
+2. Open your terminal and navigate on the main directory of the Wayback_Machine_Crawler. You should have the folders Scripts, Import and LOG as children of this directory.
+3. Start your version of the MongoDB service on your system (for exmeple: sudo systemctl start mongod)
+4. Execute the following line code to get help information about arguments and usage of the crawler:
 
 ```bash
 python -m Scripts.Wayback_Machine_Crawler --help
