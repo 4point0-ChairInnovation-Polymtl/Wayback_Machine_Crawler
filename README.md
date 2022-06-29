@@ -18,9 +18,9 @@ In order to use the 4POINT0 Wayback Machine Crawler, some requisites are necessa
         d) json
         e) BeautifulSoup
     4. Have a .txt file with your list of websites to crawl. 
-        a) The .txt file have to contain the website domain without the http(s)://www. prefix and the year for which the information will be crawled. These two inputs have to be separated by a comma-space (“, ” ). 
+        a) The .txt file have to contain the website domain without the "http(s)://www." prefix and the year for which the information will be crawled. These two inputs have to be separated by a comma-space (“, ” ). 
         b) Here an example:
-        ![alt text]()
+        ![alt text](https://github.com/4point0-ChairInnovation-Polymtl/Wayback_Machine_Crawler/blob/main/example_data_import_file.jpg)
         
 ## Documentation
 
