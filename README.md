@@ -18,7 +18,7 @@ In order to use the 4POINT0 Wayback Machine Crawler, some requisites are necessa
         d) json
         e) BeautifulSoup
     4. Have a .txt file with your list of websites to crawl. 
-        a) The .txt file have to contain the website domain without the "http(s)://www." prefix and the year for which the information will be crawled. These two inputs have to be separated by a comma-space (“, ” ). 
+        a) The .txt file have to contain the website domain (**without** the "http(s)://www." prefix) and the year for which the information will be crawled. These two inputs have to be separated by a comma-space (“, ” ). 
         b) Here an example:
         ![alt text](https://github.com/4point0-ChairInnovation-Polymtl/Wayback_Machine_Crawler/blob/main/example_data_import_file.jpg)
         
@@ -30,6 +30,7 @@ To execute the program you will send a command from your terminal. Here the step
     2. Open your terminal and navigate on the main directory of the Wayback_Machine_Crawler. You should have the folders Scripts, Import and LOG as children of this directory.
     3. Start your version of the MongoDB service on your system (for exmeple: sudo systemctl start mongod)
     4. Execute the following line code to get help information about arguments and usage of the crawler:
+
 ```bash
 python -m Scripts.Wayback_Machine_Crawler --help
 ```
