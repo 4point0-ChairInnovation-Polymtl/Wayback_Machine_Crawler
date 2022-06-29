@@ -13,13 +13,13 @@ In order to use the 4POINT0 Wayback Machine Crawler, some requisites are necessa
 2. Install Python on your machine (we recommend Anaconda distribution)
 3. Install all the following modules on your Python distribution. The following list could be not complete:
    - pymongo
-        - tqdm
-        - fake_useragent
-        - json
-        - BeautifulSoup
+   - tqdm
+   - fake_useragent
+   - json
+   - BeautifulSoup
 4. Have a .txt file with your list of websites to crawl. 
-        - The .txt file have to contain the website domain (**without** the "http(s)://www." prefix) and the year for which the information will be crawled. These two inputs have to be separated by a comma-space (“, ” ). 
-        - Here an example:
+   - The .txt file have to contain the website domain (**without** the "http(s)://www." prefix) and the year for which the information will be crawled. These two inputs have to be separated by a comma-space (“, ” ). 
+   - Here an example:
         ![alt text](https://github.com/4point0-ChairInnovation-Polymtl/Wayback_Machine_Crawler/blob/main/example_data_import_file.jpg)
         
 ## Documentation
