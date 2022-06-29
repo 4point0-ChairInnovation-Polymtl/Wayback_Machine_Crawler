@@ -1,5 +1,5 @@
 # Wayback_Machine_Crawler
-The 4POINT0 Wayback Machine Crawler is a program that allows to get data from [Wayback Machine – Internet Archive](https://archive.org/web/) and store them in a [MongoDB](https://www.mongodb.com/) database.
+The 4POINT0 Wayback Machine Crawler is a program that allows to get textual data from [Wayback Machine – Internet Archive](https://archive.org/web/) and store them in a [MongoDB](https://www.mongodb.com/) database.
 To crawl Wayback Machine is a little bit tricky, because their servers are protected if too many requests are executed in a short range of time. The 4POINT0 Wayback Machine Crawler allows to perform a gentle multi-retry crawling process in some easy steps, in order to get the maximum number of pages in the shorter time frame as possible (more or less 10 000 pages per hour).
 
 To execute the program, you will use your terminal to execute a python script. The following code of line is the basic line to launch the program: 
